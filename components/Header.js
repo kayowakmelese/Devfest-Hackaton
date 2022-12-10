@@ -7,7 +7,7 @@ import { styles } from '../style'
 export const TabBar=(props)=>{
 
     return (
-        <View style={{flexDirection:'row',justifyContent:'space-evenly',backgroundColor:'#018ED5',padding:10}}>
+        <View style={{flexDirection:'row',justifyContent:'space-evenly',backgroundColor:'#018ED5',padding:10,alignItems:'center'}}>
             <FontAwesomeIcon icon={faArrowLeft} size={10} color={'white'}/>
             <Text style={styles.buttonText}>{props.name}</Text>
 

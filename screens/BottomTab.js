@@ -29,7 +29,7 @@ Home: {
 
 const Navigator = createAppContainer(TabNavigator);
 
-export default function App() {
+export default function BottomTab() {
 return (
 	<Navigator>
 	<HomeScreen />
